@@ -75,7 +75,7 @@ const emitRandomNotification = () => {
   console.log('Emitted notification:', notification.title);
 };
 
-setInterval(emitRandomNotification, Math.random() * 5000 + 5000);
+setInterval(emitRandomNotification, 5000);
 
 const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => {
