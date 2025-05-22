@@ -1,5 +1,5 @@
 # Fortech-Real-Time-Events-App
-Fullstack application that demonstrates real-time communication between a backend (Node.js) and a frontend (React) with Material-UI interface.
+Full-stack application that demonstrates real-time communication between a backend (Node.js) and a frontend (React) with Material-UI interface.
 
 ![App Homescreen](/frontend/public/app_screenshot.png)
 
@@ -15,7 +15,7 @@ Fullstack application that demonstrates real-time communication between a backen
 - **5 Notification Types**: User signups, stock updates, sensor alerts, chat messages, system alerts
 - **Smart Categorization**: Color-coded notifications with icons
 - **Read/Unread Status**: Interactive mark-as-read functionality
-- **Auto-generation**: Server generates random events every 5 seconds
+- **Auto-generation**: The Server generates random events every 5 seconds
 
 
 ### UI/UX
