@@ -22,7 +22,6 @@ Fullstack application that demonstrates real-time communication between a backen
 - **Material-UI Design**: Modern, responsive interface
 - **CSS Modules**: Scoped styling with hover effects
 - **Real-time Updates**: Smooth animations and transitions
-- **Storage Dashboard**: Expandable storage info with analytics
 
 ## 🛠️ Tech Stack
 
@@ -74,10 +73,9 @@ realtime-app/
         ├── types/
         │   └── index.ts       # Frontend type definitions
         ├── store/
-        │   └── index.ts       # Redux store with localStorage
+        │   └── index.ts       
         ├── services/
         │   ├── socketService.ts    # Socket.IO client service
-        │   └── storageService.ts   # localStorage management
         └── components/
             ├── NotificationCard/
             │   ├── NotificationCard.tsx
@@ -88,9 +86,7 @@ realtime-app/
             ├── NotificationList/
             │   ├── NotificationList.tsx
             │   └── NotificationList.module.css
-            └── StorageInfo/
-                ├── StorageInfo.tsx
-                └── StorageInfo.module.css
+
 ```
 
 ## 🚦 Getting Started
