@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   max-width: 800px;
+  height: 80vh;
   margin: 0 auto;
 }
 
@@ -12,6 +13,7 @@
   margin-bottom: 20px;
   padding: 0 8px;
   color: #1976d2;
+   border-bottom: 1px solid #1976d2;;
 }
 
 .badge {

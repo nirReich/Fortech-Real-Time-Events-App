@@ -84,9 +84,9 @@ const NotificationCard: React.FC<NotificationCardProps> = ({ notification }) => 
               </Typography>
             </Box>
           </Box>
-          {!notification.read && (
+          { (
             <IconButton onClick={handleMarkAsRead} size="small">
-              <CheckCircle color="action" />
+              <CheckCircle color={notification.read? "success" : "action"} />
             </IconButton>
           )}
         </Box>
